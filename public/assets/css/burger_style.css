@@ -3,12 +3,13 @@ html {
 }
 
 body {
+  text-align: center;
   width: 80%;
   margin: 0 auto;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: white;
+  background-color: #edbe49;
 }
 
 #cute_burger {
@@ -27,3 +28,4 @@ h1 {
 .form-group {
   margin-bottom: 5px;
 }
+

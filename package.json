@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "eat da burger",
   "main": "index.js",
-
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "start": "node server.js"
+  }
+},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PapaDeere/burger.git"
+    "url": "https://github.com/PapaDeere/burger.git"
   },
   "author": "papa",
   "license": "ISC",
@@ -22,6 +27,3 @@
     "method-override": "^2.3.10",
     "mysql": "^2.15.0"
   },
-  "scripts": {
-    "start": "node server.js"
-}
